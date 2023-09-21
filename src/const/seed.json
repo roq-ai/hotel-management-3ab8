@@ -1,0 +1,2422 @@
+[
+  {
+    "service": [
+      {
+        "id": "14e95eeb-45c8-4a07-93b5-b7f1b64c7708",
+        "name": "Room Service",
+        "description": "Enjoy delicious meals delivered to your room",
+        "price": 91112,
+        "created_at": "2023-09-21T08:00:17.014Z",
+        "updated_at": "2023-09-21T08:12:45.786Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "8ca14444-0a0f-48c9-9e93-ec40b39eb5e7",
+        "name": "Spa & Wellness",
+        "description": "Indulge in a relaxing spa treatment",
+        "price": 91369,
+        "created_at": "2023-09-21T12:42:52.462Z",
+        "updated_at": "2023-09-21T10:36:59.618Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "14bc55a4-4cc5-4abd-8bfa-e9cd3bb833af",
+        "name": "Fitness Center",
+        "description": "Stay fit with state-of-the-art gym equipment",
+        "price": 14881,
+        "created_at": "2023-09-21T07:04:04.801Z",
+        "updated_at": "2023-09-21T10:31:00.680Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "c48e05eb-b4a6-4d95-9890-f7122f2451b0",
+        "name": "Concierge",
+        "description": "Get personalized assistance for all your needs",
+        "price": 43070,
+        "created_at": "2023-09-21T10:44:07.940Z",
+        "updated_at": "2023-09-21T15:43:45.466Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "0328accb-680a-4c8e-8f34-1b3281c8d948",
+        "name": "Business Center",
+        "description": "Stay productive with our fully equipped workspaces",
+        "price": 40895,
+        "created_at": "2023-09-21T08:54:55.550Z",
+        "updated_at": "2023-09-21T01:54:05.601Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "46661746-4bac-4bd3-b50d-82ca30c30d35",
+        "room_number": 44119,
+        "room_type": "Deluxe Suite",
+        "price": 66190,
+        "availability": true,
+        "created_at": "2023-09-21T08:41:04.156Z",
+        "updated_at": "2023-09-21T00:40:23.873Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "c4825ee2-8fad-4ae6-a68f-15c9d57a400f",
+        "room_number": 67082,
+        "room_type": "Executive Room",
+        "price": 55521,
+        "availability": false,
+        "created_at": "2023-09-21T15:02:19.921Z",
+        "updated_at": "2023-09-20T22:42:19.370Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "94d6c094-7c09-4ca7-9d02-d827fd660292",
+        "room_number": 66095,
+        "room_type": "Standard Double",
+        "price": 62899,
+        "availability": true,
+        "created_at": "2023-09-21T02:32:46.541Z",
+        "updated_at": "2023-09-21T02:16:04.849Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "c18c548c-782a-4248-8614-5c85ab3604eb",
+        "room_number": 19380,
+        "room_type": "Family Suite",
+        "price": 19660,
+        "availability": true,
+        "created_at": "2023-09-21T13:04:53.659Z",
+        "updated_at": "2023-09-21T04:42:15.945Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "987972e8-e06d-4628-bf73-66f18052b1a3",
+        "room_number": 67,
+        "room_type": "Penthouse",
+        "price": 22725,
+        "availability": true,
+        "created_at": "2023-09-20T23:09:50.316Z",
+        "updated_at": "2023-09-21T08:29:25.305Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "7ed31a21-118b-4aaa-97bd-b7343eaaa44b",
+        "month": "2023-09-21T10:21:56.548Z",
+        "total_profit": 26109,
+        "created_at": "2023-09-20T23:01:02.069Z",
+        "updated_at": "2023-09-21T05:50:32.403Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "f0388dd6-9dc6-4680-bb47-5ab8552b831f",
+        "month": "2023-09-21T06:30:15.324Z",
+        "total_profit": 4063,
+        "created_at": "2023-09-21T17:48:09.956Z",
+        "updated_at": "2023-09-21T15:58:21.692Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d16dc55b-0e6b-4c19-8f81-f7decac8a9e1",
+        "month": "2023-09-21T09:07:23.689Z",
+        "total_profit": 83860,
+        "created_at": "2023-09-21T12:03:00.052Z",
+        "updated_at": "2023-09-21T15:05:07.834Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d4c063d1-9dad-4c76-8173-db4e22aadd46",
+        "month": "2023-09-20T20:53:58.574Z",
+        "total_profit": 90835,
+        "created_at": "2023-09-20T22:31:43.164Z",
+        "updated_at": "2023-09-21T04:55:55.778Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "6c3432b5-b8fb-458d-9e64-785d823651d0",
+        "month": "2023-09-21T16:48:03.196Z",
+        "total_profit": 33626,
+        "created_at": "2023-09-21T17:44:00.934Z",
+        "updated_at": "2023-09-20T19:01:23.943Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a968a205-ef1d-432b-9fa4-d6ff1b63744b",
+        "start_date": "2023-09-21T11:15:42.097Z",
+        "end_date": "2023-09-20T23:26:15.669Z",
+        "total_price": 57207,
+        "created_at": "2023-09-21T00:39:22.727Z",
+        "updated_at": "2023-09-20T20:44:42.523Z",
+        "room_id": "c18c548c-782a-4248-8614-5c85ab3604eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37d3cbb2-bbb1-4c7e-9217-622d6c6eed7c",
+        "start_date": "2023-09-21T02:46:10.549Z",
+        "end_date": "2023-09-20T19:02:26.869Z",
+        "total_price": 17666,
+        "created_at": "2023-09-21T00:33:46.232Z",
+        "updated_at": "2023-09-21T16:26:35.561Z",
+        "room_id": "c18c548c-782a-4248-8614-5c85ab3604eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97de4b14-2abe-4b88-a2b0-287f8e523786",
+        "start_date": "2023-09-21T05:36:38.654Z",
+        "end_date": "2023-09-21T14:33:31.352Z",
+        "total_price": 11070,
+        "created_at": "2023-09-21T05:39:42.694Z",
+        "updated_at": "2023-09-21T07:37:35.501Z",
+        "room_id": "c18c548c-782a-4248-8614-5c85ab3604eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39dbe6bf-26ba-46b8-a2bf-d0c44fc982c6",
+        "start_date": "2023-09-21T15:20:47.326Z",
+        "end_date": "2023-09-21T08:00:42.237Z",
+        "total_price": 40772,
+        "created_at": "2023-09-21T10:55:30.891Z",
+        "updated_at": "2023-09-21T14:02:43.911Z",
+        "room_id": "c18c548c-782a-4248-8614-5c85ab3604eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75689d54-abe3-4f41-b59e-1ea63eaebdfd",
+        "start_date": "2023-09-21T05:18:00.459Z",
+        "end_date": "2023-09-21T02:12:18.197Z",
+        "total_price": 32825,
+        "created_at": "2023-09-20T19:34:22.433Z",
+        "updated_at": "2023-09-21T10:19:06.347Z",
+        "room_id": "c18c548c-782a-4248-8614-5c85ab3604eb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4b915778-e8e2-452f-9315-dacda3c9eff5",
+        "email": "Josianne5@roq.tech",
+        "firstName": "Westley",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fdf3fdac-22b6-4399-86ff-7accd080be0f",
+        "email": "Roel_White@roq.tech",
+        "firstName": "Yasmeen",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1216.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3cfa2c9b-88ae-4eb3-8b35-6d451bb68422",
+        "email": "Neal49@roq.tech",
+        "firstName": "Laney",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1136.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c3b69be4-c38a-4a96-a9bb-2b31ef7aa82a",
+        "email": "Jamie.Oberbrunner@roq.tech",
+        "firstName": "Vincent",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/947.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fa33b5a7-8b8c-4cdd-8e68-6343d052cc05",
+        "email": "Vidal_Walsh44@roq.tech",
+        "firstName": "Kayley",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90896912",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "4fdbf4a2-ce8d-485c-a3aa-543f7b56c6ac",
+        "name": "Spa",
+        "description": "Relax and rejuvenate with our spa treatments",
+        "price": 45622,
+        "created_at": "2023-09-21T11:25:11.960Z",
+        "updated_at": "2023-09-20T19:15:45.328Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "96a6abd1-186e-4715-86bf-d2a1a5ba8fff",
+        "name": "Fitness Center",
+        "description": "Stay fit and active at our state-of-the-art fitness center",
+        "price": 93805,
+        "created_at": "2023-09-21T01:25:01.230Z",
+        "updated_at": "2023-09-21T00:42:41.468Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "527c42cf-24fb-4318-84b1-7aaf42bea55e",
+        "name": "Restaurant",
+        "description": "Indulge in delicious cuisine at our restaurant",
+        "price": 57001,
+        "created_at": "2023-09-21T15:48:52.422Z",
+        "updated_at": "2023-09-20T20:07:49.913Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "dd351910-881e-46f0-afb8-8ebede3ad7df",
+        "name": "Concierge",
+        "description": "Experience personalized assistance from our concierge team",
+        "price": 73482,
+        "created_at": "2023-09-21T03:39:16.062Z",
+        "updated_at": "2023-09-21T16:58:12.302Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "71de94fc-7cd2-4701-a148-d0cc9bf5f8ef",
+        "name": "Room Service",
+        "description": "Enjoy the convenience of in-room dining with our room service",
+        "price": 18094,
+        "created_at": "2023-09-21T07:31:38.614Z",
+        "updated_at": "2023-09-21T08:36:38.627Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "cf3f5583-265b-4d12-8873-95f98c231705",
+        "room_number": 77653,
+        "room_type": "Deluxe King",
+        "price": 14681,
+        "availability": false,
+        "created_at": "2023-09-21T17:11:11.859Z",
+        "updated_at": "2023-09-21T10:19:26.286Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "4107ad9f-dbd9-4465-93d2-d89a22d59e7d",
+        "room_number": 3358,
+        "room_type": "Ocean View Suite",
+        "price": 68054,
+        "availability": true,
+        "created_at": "2023-09-21T02:36:51.087Z",
+        "updated_at": "2023-09-20T20:57:00.662Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a7403185-bbd7-4fa6-900e-87cccc440c79",
+        "room_number": 42545,
+        "room_type": "Executive Double",
+        "price": 39759,
+        "availability": false,
+        "created_at": "2023-09-21T02:31:44.359Z",
+        "updated_at": "2023-09-21T05:43:00.047Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "b36d394c-86f5-4cfb-8a85-0fb8928b5edb",
+        "room_number": 46970,
+        "room_type": "Family Room",
+        "price": 13157,
+        "availability": false,
+        "created_at": "2023-09-20T19:20:34.370Z",
+        "updated_at": "2023-09-20T18:23:08.555Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "c29ddffc-d269-465a-b5e8-9b744e4a4b8c",
+        "room_number": 17570,
+        "room_type": "Mountain View Cabin",
+        "price": 12289,
+        "availability": false,
+        "created_at": "2023-09-20T19:52:29.642Z",
+        "updated_at": "2023-09-21T13:08:52.496Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "2213a9e6-e002-4d27-8ae3-86a176cf4999",
+        "month": "2023-09-21T06:22:40.490Z",
+        "total_profit": 55611,
+        "created_at": "2023-09-21T08:16:50.828Z",
+        "updated_at": "2023-09-21T14:11:49.789Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "2c356c8a-27d9-4779-a372-25b04e247bc7",
+        "month": "2023-09-21T15:01:53.869Z",
+        "total_profit": 84041,
+        "created_at": "2023-09-21T10:50:58.751Z",
+        "updated_at": "2023-09-21T03:12:33.796Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "94542edc-28d2-4211-9a01-db8d71cab484",
+        "month": "2023-09-21T02:25:46.501Z",
+        "total_profit": 24324,
+        "created_at": "2023-09-21T07:30:54.977Z",
+        "updated_at": "2023-09-21T13:00:41.870Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "260c6b73-faae-4493-a3bd-653d5f49a775",
+        "month": "2023-09-21T09:46:51.029Z",
+        "total_profit": 32132,
+        "created_at": "2023-09-20T19:25:49.629Z",
+        "updated_at": "2023-09-20T18:27:59.772Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "9f6d3fd0-7d70-47fe-8827-07a8e46d6345",
+        "month": "2023-09-21T13:48:50.542Z",
+        "total_profit": 84923,
+        "created_at": "2023-09-21T02:11:21.320Z",
+        "updated_at": "2023-09-21T09:14:11.113Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5b619e62-39b0-4047-86e8-d8ebea32dcf3",
+        "start_date": "2023-09-20T18:25:20.342Z",
+        "end_date": "2023-09-20T23:28:06.689Z",
+        "total_price": 3252,
+        "created_at": "2023-09-21T06:47:19.176Z",
+        "updated_at": "2023-09-20T22:01:52.408Z",
+        "room_id": "cf3f5583-265b-4d12-8873-95f98c231705",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a885b99-6a57-483c-b7e4-4f30e6d949cf",
+        "start_date": "2023-09-20T18:19:20.720Z",
+        "end_date": "2023-09-21T10:07:40.284Z",
+        "total_price": 59494,
+        "created_at": "2023-09-21T02:19:26.439Z",
+        "updated_at": "2023-09-21T13:58:09.091Z",
+        "room_id": "4107ad9f-dbd9-4465-93d2-d89a22d59e7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04760d8c-9df0-40ba-bf58-6810e7c48d37",
+        "start_date": "2023-09-21T13:30:12.506Z",
+        "end_date": "2023-09-21T04:00:16.759Z",
+        "total_price": 72251,
+        "created_at": "2023-09-20T18:14:58.352Z",
+        "updated_at": "2023-09-21T00:33:25.003Z",
+        "room_id": "4107ad9f-dbd9-4465-93d2-d89a22d59e7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b54c79ea-2785-459b-91b4-407c39b2844d",
+        "start_date": "2023-09-21T08:20:56.480Z",
+        "end_date": "2023-09-21T10:05:40.749Z",
+        "total_price": 14268,
+        "created_at": "2023-09-20T21:50:19.935Z",
+        "updated_at": "2023-09-20T20:07:36.204Z",
+        "room_id": "4107ad9f-dbd9-4465-93d2-d89a22d59e7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ab7fa0c-1e50-4648-b3d2-f97591834c14",
+        "start_date": "2023-09-20T21:02:25.947Z",
+        "end_date": "2023-09-21T14:08:17.250Z",
+        "total_price": 22255,
+        "created_at": "2023-09-21T05:43:08.485Z",
+        "updated_at": "2023-09-21T13:33:03.955Z",
+        "room_id": "4107ad9f-dbd9-4465-93d2-d89a22d59e7d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8860389d-2880-4e57-aa1e-c48b227b24fd",
+        "email": "Josianne45@roq.tech",
+        "firstName": "Brisa",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/716.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a5c4cf51-e092-4d97-bbf4-289b0f0420a8",
+        "email": "Kayleigh.Wyman6@roq.tech",
+        "firstName": "Devante",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80836925",
+        "tenantId": null
+      },
+      {
+        "reference": "13422d3d-fd2a-4c6e-8d71-f7f18cd566a8",
+        "email": "Samantha.Murray@roq.tech",
+        "firstName": "Cheyenne",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1515109",
+        "tenantId": null
+      },
+      {
+        "reference": "46d67015-297c-4398-86cb-c2418ed41701",
+        "email": "Hal.Baumbach41@roq.tech",
+        "firstName": "Aric",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/841.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2dee1f83-e40f-4982-a869-24859c4c4acd",
+        "email": "Jacques.Schumm40@roq.tech",
+        "firstName": "Justyn",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77457592",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "ddff1275-aeb5-4a5d-aa01-8f713338488f",
+        "name": "Spa",
+        "description": "Relax and rejuvenate with our spa services",
+        "price": 55154,
+        "created_at": "2023-09-21T17:24:36.992Z",
+        "updated_at": "2023-09-21T16:12:09.604Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "e8555754-76d8-4722-baf4-56db799515cb",
+        "name": "Restaurant",
+        "description": "Indulge in delicious cuisine at our restaurant",
+        "price": 91414,
+        "created_at": "2023-09-21T07:08:47.072Z",
+        "updated_at": "2023-09-20T22:11:34.619Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "43920142-a501-4ab1-b3de-23bf3bd88f45",
+        "name": "Fitness Center",
+        "description": "Stay fit and active at our fitness center",
+        "price": 78221,
+        "created_at": "2023-09-21T04:50:15.157Z",
+        "updated_at": "2023-09-20T20:54:20.131Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d0897cd3-840d-4374-8efb-d09e3c87b169",
+        "name": "Concierge",
+        "description": "Get personalized assistance from our concierge",
+        "price": 21199,
+        "created_at": "2023-09-21T07:12:39.030Z",
+        "updated_at": "2023-09-21T10:34:10.838Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d2d10470-973e-43af-8fc0-49541b2660db",
+        "name": "Room Service",
+        "description": "Enjoy the convenience of room service",
+        "price": 53543,
+        "created_at": "2023-09-21T14:58:03.758Z",
+        "updated_at": "2023-09-21T06:33:11.012Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "fd5e2684-20e8-4779-bafd-445429cb880b",
+        "room_number": 39858,
+        "room_type": "Deluxe Suite",
+        "price": 86249,
+        "availability": true,
+        "created_at": "2023-09-21T13:15:23.906Z",
+        "updated_at": "2023-09-21T07:06:45.238Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "7eb86b80-ce52-4c07-a3e7-b89e6b60f85f",
+        "room_number": 95444,
+        "room_type": "Standard Room",
+        "price": 25371,
+        "availability": false,
+        "created_at": "2023-09-20T23:26:54.638Z",
+        "updated_at": "2023-09-21T09:36:26.525Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "439b2634-38e7-4fad-ac8b-66699de8972a",
+        "room_number": 86242,
+        "room_type": "Executive Suite",
+        "price": 33060,
+        "availability": false,
+        "created_at": "2023-09-21T12:50:36.323Z",
+        "updated_at": "2023-09-21T08:31:26.507Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "8d5c99d4-a164-4cc9-a376-a1264d452981",
+        "room_number": 17647,
+        "room_type": "Family Room",
+        "price": 55819,
+        "availability": false,
+        "created_at": "2023-09-21T13:05:40.777Z",
+        "updated_at": "2023-09-21T01:16:16.797Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "3784d62b-77ff-45a3-a937-cb7d75424aa7",
+        "room_number": 17272,
+        "room_type": "Penthouse",
+        "price": 32296,
+        "availability": true,
+        "created_at": "2023-09-21T04:04:37.598Z",
+        "updated_at": "2023-09-20T21:49:41.819Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "1e64c2d9-e9ae-4b8d-81ca-e4a9317d47d5",
+        "month": "2023-09-21T08:01:48.228Z",
+        "total_profit": 91472,
+        "created_at": "2023-09-21T10:40:05.349Z",
+        "updated_at": "2023-09-21T09:25:10.655Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "8a54cec1-89e3-41e6-80df-dfeacbe55f52",
+        "month": "2023-09-20T18:24:39.047Z",
+        "total_profit": 46594,
+        "created_at": "2023-09-21T17:15:16.110Z",
+        "updated_at": "2023-09-21T00:32:51.736Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "54c999f1-aae0-427e-b764-c0f5d061dcb8",
+        "month": "2023-09-21T07:37:48.313Z",
+        "total_profit": 13799,
+        "created_at": "2023-09-20T18:36:46.858Z",
+        "updated_at": "2023-09-21T11:44:45.747Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a151ea46-5631-4274-a9c5-f024e2d0b482",
+        "month": "2023-09-21T11:44:08.741Z",
+        "total_profit": 44593,
+        "created_at": "2023-09-21T13:41:56.086Z",
+        "updated_at": "2023-09-21T13:27:00.867Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "6aeaea73-5cc4-4fff-b733-b4382fa29633",
+        "month": "2023-09-20T18:29:56.812Z",
+        "total_profit": 5838,
+        "created_at": "2023-09-20T21:47:08.557Z",
+        "updated_at": "2023-09-21T06:35:49.248Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "7e4d3fb1-84d5-4e19-a21c-399658c718b2",
+        "start_date": "2023-09-20T23:15:39.441Z",
+        "end_date": "2023-09-20T21:17:57.096Z",
+        "total_price": 65751,
+        "created_at": "2023-09-21T17:19:13.757Z",
+        "updated_at": "2023-09-21T09:25:12.392Z",
+        "room_id": "7eb86b80-ce52-4c07-a3e7-b89e6b60f85f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "943ded46-8995-485d-b1b5-2584ac828ec3",
+        "start_date": "2023-09-21T01:35:44.843Z",
+        "end_date": "2023-09-21T13:53:09.533Z",
+        "total_price": 89350,
+        "created_at": "2023-09-20T21:52:16.383Z",
+        "updated_at": "2023-09-21T09:25:12.797Z",
+        "room_id": "8d5c99d4-a164-4cc9-a376-a1264d452981",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3cd6779-a545-4c33-9b43-5d37eb52f9b2",
+        "start_date": "2023-09-21T09:36:07.351Z",
+        "end_date": "2023-09-20T20:27:28.394Z",
+        "total_price": 44010,
+        "created_at": "2023-09-21T14:41:44.775Z",
+        "updated_at": "2023-09-21T14:46:53.183Z",
+        "room_id": "7eb86b80-ce52-4c07-a3e7-b89e6b60f85f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f348f198-3edd-40d0-ad57-2ba756b97f6c",
+        "start_date": "2023-09-21T12:26:16.209Z",
+        "end_date": "2023-09-21T11:54:52.603Z",
+        "total_price": 9800,
+        "created_at": "2023-09-21T10:45:04.025Z",
+        "updated_at": "2023-09-20T21:33:09.144Z",
+        "room_id": "439b2634-38e7-4fad-ac8b-66699de8972a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aeedb420-f995-44e4-8d07-5d297da0f4ce",
+        "start_date": "2023-09-21T10:41:20.278Z",
+        "end_date": "2023-09-20T21:13:12.420Z",
+        "total_price": 26872,
+        "created_at": "2023-09-21T07:29:44.153Z",
+        "updated_at": "2023-09-21T11:13:08.942Z",
+        "room_id": "8d5c99d4-a164-4cc9-a376-a1264d452981",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "73a333c4-5aed-4f11-9488-47cb37a365db",
+        "email": "Mose.Schinner@roq.tech",
+        "firstName": "Lourdes",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37137674",
+        "tenantId": null
+      },
+      {
+        "reference": "eb3da395-4804-421f-9d5c-1ea1af4be17c",
+        "email": "Bulah_Miller76@roq.tech",
+        "firstName": "Hazel",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80847615",
+        "tenantId": null
+      },
+      {
+        "reference": "bb33af9e-f103-4777-9420-ba746b451a69",
+        "email": "Vilma.Heaney@roq.tech",
+        "firstName": "Sylvia",
+        "lastName": "Bartoletti-Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53441289",
+        "tenantId": null
+      },
+      {
+        "reference": "2cb7e548-ed89-4ee6-8643-b9ea83818ca2",
+        "email": "Osvaldo.Renner@roq.tech",
+        "firstName": "Tyrell",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95906298",
+        "tenantId": null
+      },
+      {
+        "reference": "ebac48b0-b3da-4d3a-9dd2-0400a0fa33a7",
+        "email": "Benny_Brakus-Hane@roq.tech",
+        "firstName": "Jordan",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1057.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "e263f4b8-7240-41d9-affc-7b77079f481f",
+        "name": "Spa",
+        "description": "Relax and rejuvenate with our spa treatments",
+        "price": 31906,
+        "created_at": "2023-09-21T07:24:45.288Z",
+        "updated_at": "2023-09-21T10:01:09.339Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "499829e7-8f68-405f-940f-a6db899a9c89",
+        "name": "Restaurant",
+        "description": "Indulge in a culinary journey at our restaurant",
+        "price": 99779,
+        "created_at": "2023-09-21T10:34:52.886Z",
+        "updated_at": "2023-09-21T16:17:27.825Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "10ac136f-eddc-456c-a304-97d595b2c142",
+        "name": "Fitness Center",
+        "description": "Stay fit and active in our state-of-the-art fitness center",
+        "price": 45212,
+        "created_at": "2023-09-21T13:44:18.969Z",
+        "updated_at": "2023-09-21T11:38:42.977Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "feda7656-c7bb-495e-8239-efbd0d992525",
+        "name": "Concierge",
+        "description": "Experience personalized assistance from our concierge team",
+        "price": 68707,
+        "created_at": "2023-09-20T21:54:16.685Z",
+        "updated_at": "2023-09-21T14:05:39.285Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "72527dad-ec77-40dc-a888-1775b27e13f6",
+        "name": "Room Service",
+        "description": "Enjoy delicious meals and drinks delivered to your room",
+        "price": 60626,
+        "created_at": "2023-09-21T11:44:01.343Z",
+        "updated_at": "2023-09-21T10:38:10.475Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "10b756c7-00f2-42c6-b812-c3ff485294b6",
+        "room_number": 23789,
+        "room_type": "Deluxe Suite",
+        "price": 82761,
+        "availability": false,
+        "created_at": "2023-09-21T09:13:11.370Z",
+        "updated_at": "2023-09-20T21:09:20.599Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "3c321373-52de-42ef-9565-2c3ee47f4c5a",
+        "room_number": 77930,
+        "room_type": "Executive Room",
+        "price": 63718,
+        "availability": false,
+        "created_at": "2023-09-20T18:43:36.080Z",
+        "updated_at": "2023-09-21T11:11:39.697Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "19b5e3bb-9598-4528-b8bf-1a713d682ba4",
+        "room_number": 18280,
+        "room_type": "Standard Double",
+        "price": 90067,
+        "availability": true,
+        "created_at": "2023-09-21T10:50:54.271Z",
+        "updated_at": "2023-09-21T00:36:37.400Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "97302a3f-a6bf-48b4-a5b6-aab498b8edb5",
+        "room_number": 25779,
+        "room_type": "Family Suite",
+        "price": 37442,
+        "availability": true,
+        "created_at": "2023-09-20T23:31:27.957Z",
+        "updated_at": "2023-09-20T20:35:52.597Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "91faf910-b3e3-49a0-92e9-2f6132a32348",
+        "room_number": 18079,
+        "room_type": "Presidential Suite",
+        "price": 47981,
+        "availability": false,
+        "created_at": "2023-09-21T05:23:30.453Z",
+        "updated_at": "2023-09-20T23:49:56.999Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "ea5d0120-bf02-46d8-9b00-578b062a8e96",
+        "month": "2023-09-20T19:03:45.958Z",
+        "total_profit": 82276,
+        "created_at": "2023-09-20T20:59:01.052Z",
+        "updated_at": "2023-09-21T16:29:24.856Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "6cf51d44-faa5-495e-afce-c035d0ed7d6a",
+        "month": "2023-09-20T20:01:25.969Z",
+        "total_profit": 73925,
+        "created_at": "2023-09-21T09:28:53.738Z",
+        "updated_at": "2023-09-21T09:00:26.405Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "3107195e-a548-4afc-afbd-d0e061663992",
+        "month": "2023-09-21T06:36:12.647Z",
+        "total_profit": 57479,
+        "created_at": "2023-09-21T17:02:03.824Z",
+        "updated_at": "2023-09-21T02:20:55.853Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a5cc0fbd-1831-41a2-851c-2f183ccd050a",
+        "month": "2023-09-20T23:20:04.013Z",
+        "total_profit": 37527,
+        "created_at": "2023-09-21T14:36:55.173Z",
+        "updated_at": "2023-09-21T12:11:05.298Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "db7c3297-6862-4ec3-8f68-a324a9cb664f",
+        "month": "2023-09-20T21:57:50.483Z",
+        "total_profit": 26782,
+        "created_at": "2023-09-21T11:10:11.482Z",
+        "updated_at": "2023-09-21T13:50:20.157Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a22bc251-28bb-4f71-8853-ba802c6b449b",
+        "start_date": "2023-09-20T20:47:07.050Z",
+        "end_date": "2023-09-21T06:59:16.934Z",
+        "total_price": 47781,
+        "created_at": "2023-09-21T14:13:08.130Z",
+        "updated_at": "2023-09-20T20:28:33.851Z",
+        "room_id": "10b756c7-00f2-42c6-b812-c3ff485294b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "596c19f2-2118-46bf-a76a-ae4ae1b6dc54",
+        "start_date": "2023-09-20T23:41:18.145Z",
+        "end_date": "2023-09-21T07:01:50.913Z",
+        "total_price": 35373,
+        "created_at": "2023-09-21T10:37:19.480Z",
+        "updated_at": "2023-09-20T19:10:52.415Z",
+        "room_id": "3c321373-52de-42ef-9565-2c3ee47f4c5a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44727443-1a7b-4171-9057-489288031d8b",
+        "start_date": "2023-09-21T12:23:24.847Z",
+        "end_date": "2023-09-20T21:30:01.615Z",
+        "total_price": 71848,
+        "created_at": "2023-09-20T20:29:07.225Z",
+        "updated_at": "2023-09-21T10:45:51.569Z",
+        "room_id": "19b5e3bb-9598-4528-b8bf-1a713d682ba4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5c723fa-ca45-46da-b691-4cfb9e694dfd",
+        "start_date": "2023-09-21T11:35:48.573Z",
+        "end_date": "2023-09-21T09:16:39.032Z",
+        "total_price": 23714,
+        "created_at": "2023-09-20T19:03:36.072Z",
+        "updated_at": "2023-09-21T00:39:52.488Z",
+        "room_id": "97302a3f-a6bf-48b4-a5b6-aab498b8edb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed3bc048-dc10-446a-b07b-7b9d1c9cc643",
+        "start_date": "2023-09-21T07:48:59.367Z",
+        "end_date": "2023-09-20T21:32:11.080Z",
+        "total_price": 5368,
+        "created_at": "2023-09-21T05:53:33.942Z",
+        "updated_at": "2023-09-21T16:58:34.484Z",
+        "room_id": "97302a3f-a6bf-48b4-a5b6-aab498b8edb5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1ec71d19-7295-43fd-8ef2-133faf7a3459",
+        "email": "Rosie.Hills@roq.tech",
+        "firstName": "Quincy",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1811434",
+        "tenantId": null
+      },
+      {
+        "reference": "633a9796-7d8b-4580-89f1-0c706999559f",
+        "email": "Dortha_Kassulke-Effertz80@roq.tech",
+        "firstName": "Chloe",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/623.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eecf282d-2aac-4d50-9dd3-c5434f1d64b6",
+        "email": "Linnie_Braun0@roq.tech",
+        "firstName": "Leslie",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51809848",
+        "tenantId": null
+      },
+      {
+        "reference": "a79e4bd7-e203-42a7-817b-827aba58d1d6",
+        "email": "Lilla59@roq.tech",
+        "firstName": "Brian",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47801257",
+        "tenantId": null
+      },
+      {
+        "reference": "0890f872-068f-4940-aff4-a1bcb161b4bd",
+        "email": "Crystel_Wyman@roq.tech",
+        "firstName": "Viviane",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4030538",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "5c0d6fe7-52b1-4684-83da-fe3a9e210543",
+        "name": "Spa & Wellness",
+        "description": "Indulge in rejuvenating spa treatments",
+        "price": 32255,
+        "created_at": "2023-09-21T06:22:39.418Z",
+        "updated_at": "2023-09-20T18:35:24.945Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "cb696b65-e6fb-4458-88f9-f2dba6ee9157",
+        "name": "Gourmet Dining",
+        "description": "Savor exquisite culinary creations",
+        "price": 47164,
+        "created_at": "2023-09-21T16:17:39.922Z",
+        "updated_at": "2023-09-21T03:09:43.233Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "1f38f221-ff2e-402a-afdb-c056669afe58",
+        "name": "Fitness Center",
+        "description": "Stay fit with state-of-the-art gym facilities",
+        "price": 61098,
+        "created_at": "2023-09-21T12:07:45.627Z",
+        "updated_at": "2023-09-21T07:12:11.093Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "5eae4606-5ab2-46fd-af7e-003cfb1e77fe",
+        "name": "Concierge Services",
+        "description": "Experience personalized assistance from our dedicated concierge team",
+        "price": 17069,
+        "created_at": "2023-09-21T12:41:57.921Z",
+        "updated_at": "2023-09-21T05:06:12.911Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "0829add2-f827-446d-b2ff-75379cd9f6b0",
+        "name": "Outdoor Activities",
+        "description": "Enjoy a variety of outdoor adventures",
+        "price": 94887,
+        "created_at": "2023-09-21T11:07:09.599Z",
+        "updated_at": "2023-09-21T08:30:47.535Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "43117b23-1560-47d1-b773-6c1ca4486486",
+        "room_number": 76548,
+        "room_type": "Deluxe Suite",
+        "price": 98790,
+        "availability": false,
+        "created_at": "2023-09-21T07:17:30.906Z",
+        "updated_at": "2023-09-20T19:45:52.767Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "c24c43cf-e681-4514-a428-a3c0f552cdb6",
+        "room_number": 65199,
+        "room_type": "Ocean View Room",
+        "price": 18649,
+        "availability": true,
+        "created_at": "2023-09-20T19:41:23.654Z",
+        "updated_at": "2023-09-20T20:54:37.936Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "796aae62-a0d7-4b99-933e-a5a3cacfd7df",
+        "room_number": 3714,
+        "room_type": "Executive Suite",
+        "price": 71480,
+        "availability": false,
+        "created_at": "2023-09-21T11:32:13.529Z",
+        "updated_at": "2023-09-20T20:38:51.323Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "63442b18-fff2-4d6a-9644-28d77be688ab",
+        "room_number": 69251,
+        "room_type": "Family Room",
+        "price": 34975,
+        "availability": false,
+        "created_at": "2023-09-21T07:51:44.199Z",
+        "updated_at": "2023-09-21T00:41:29.463Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "970cc2f7-a37e-4726-b426-2ef313c1b587",
+        "room_number": 37770,
+        "room_type": "Penthouse Suite",
+        "price": 59994,
+        "availability": false,
+        "created_at": "2023-09-21T02:04:18.276Z",
+        "updated_at": "2023-09-21T07:59:44.648Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "6aa48ff9-d77f-4d33-bc71-df8f7d319b69",
+        "month": "2023-09-21T12:52:05.009Z",
+        "total_profit": 87240,
+        "created_at": "2023-09-21T17:45:04.229Z",
+        "updated_at": "2023-09-21T08:05:56.613Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "66be202a-3cd8-473c-9ff6-0a3068409019",
+        "month": "2023-09-20T23:48:39.909Z",
+        "total_profit": 82624,
+        "created_at": "2023-09-20T23:25:31.316Z",
+        "updated_at": "2023-09-20T23:21:10.032Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "4fb61416-d94f-41cf-81dd-2eaf10fe4273",
+        "month": "2023-09-21T14:17:52.630Z",
+        "total_profit": 27654,
+        "created_at": "2023-09-21T08:11:26.779Z",
+        "updated_at": "2023-09-20T19:44:50.984Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "770af75d-5394-48f6-b65c-c087887a0638",
+        "month": "2023-09-21T12:09:25.243Z",
+        "total_profit": 98933,
+        "created_at": "2023-09-20T19:45:09.801Z",
+        "updated_at": "2023-09-21T03:56:55.792Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "ac434275-1427-42a9-b4b9-5edbb3d5dd95",
+        "month": "2023-09-21T12:47:31.361Z",
+        "total_profit": 94899,
+        "created_at": "2023-09-21T09:07:23.462Z",
+        "updated_at": "2023-09-21T00:10:18.721Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d5d65085-2320-407a-9e1b-e49eba8ce689",
+        "start_date": "2023-09-21T10:36:00.600Z",
+        "end_date": "2023-09-20T22:31:58.633Z",
+        "total_price": 27522,
+        "created_at": "2023-09-21T15:29:19.003Z",
+        "updated_at": "2023-09-21T01:28:50.829Z",
+        "room_id": "43117b23-1560-47d1-b773-6c1ca4486486",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14597977-7e48-4b4f-9d00-7a363167d05d",
+        "start_date": "2023-09-21T12:25:02.870Z",
+        "end_date": "2023-09-20T21:26:46.442Z",
+        "total_price": 54816,
+        "created_at": "2023-09-21T03:49:55.482Z",
+        "updated_at": "2023-09-21T16:34:45.325Z",
+        "room_id": "c24c43cf-e681-4514-a428-a3c0f552cdb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4fe96a0-eab7-47b5-9fbd-3ba947bfbdaa",
+        "start_date": "2023-09-21T03:01:09.333Z",
+        "end_date": "2023-09-20T23:32:05.044Z",
+        "total_price": 35913,
+        "created_at": "2023-09-21T11:32:22.229Z",
+        "updated_at": "2023-09-21T05:56:37.977Z",
+        "room_id": "c24c43cf-e681-4514-a428-a3c0f552cdb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52c8344e-e8ce-4220-90bd-f797b249487e",
+        "start_date": "2023-09-21T11:04:48.641Z",
+        "end_date": "2023-09-21T16:05:10.555Z",
+        "total_price": 26848,
+        "created_at": "2023-09-20T23:42:53.684Z",
+        "updated_at": "2023-09-20T20:00:01.946Z",
+        "room_id": "43117b23-1560-47d1-b773-6c1ca4486486",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45d41fa0-7dfb-4633-8d79-4e243c59ea15",
+        "start_date": "2023-09-21T05:56:29.931Z",
+        "end_date": "2023-09-21T09:07:54.644Z",
+        "total_price": 52866,
+        "created_at": "2023-09-21T14:10:56.794Z",
+        "updated_at": "2023-09-21T11:58:31.352Z",
+        "room_id": "43117b23-1560-47d1-b773-6c1ca4486486",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f331573e-bc2c-4c2c-b60a-33c28318a803",
+        "email": "Shaniya.Reilly@roq.tech",
+        "firstName": "Jacques",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/783.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60ac8283-d742-40fd-b566-2d5999abfab2",
+        "email": "Felicity.Purdy@roq.tech",
+        "firstName": "Jerrell",
+        "lastName": "Purdy-Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60417358",
+        "tenantId": null
+      },
+      {
+        "reference": "3644ac20-8ef2-4b6f-8239-e96f3b9865d0",
+        "email": "Brandt.Ruecker@roq.tech",
+        "firstName": "Halle",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/23.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92bde1b2-ff10-4d17-83db-7dd8c240bcbf",
+        "email": "Adolph.Hermann57@roq.tech",
+        "firstName": "Allene",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/944.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64c89d4b-7840-411d-8b95-5e976a206dd3",
+        "email": "Anika_Franey@roq.tech",
+        "firstName": "Dave",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84650401",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "fe67fdcc-2eec-4c38-acea-54d685a85d65",
+        "name": "Spa & Wellness",
+        "description": "Indulge in rejuvenating spa treatments",
+        "price": 10029,
+        "created_at": "2023-09-21T09:17:32.757Z",
+        "updated_at": "2023-09-20T23:05:45.583Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d64803df-b58f-4ed5-8ef4-14238aaacbae",
+        "name": "Gourmet Restaurant",
+        "description": "Savor exquisite culinary creations",
+        "price": 66757,
+        "created_at": "2023-09-21T12:41:33.845Z",
+        "updated_at": "2023-09-21T08:42:58.190Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "de1ef878-4e13-46d6-a943-a42ed7d955d2",
+        "name": "Fitness Center",
+        "description": "Stay fit with state-of-the-art gym equipment",
+        "price": 52082,
+        "created_at": "2023-09-21T03:17:40.807Z",
+        "updated_at": "2023-09-21T14:36:44.245Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "ebe88865-bd30-44b4-a4a9-e31e25336b13",
+        "name": "Conference Facilities",
+        "description": "Host successful meetings and events",
+        "price": 49709,
+        "created_at": "2023-09-21T15:14:14.688Z",
+        "updated_at": "2023-09-20T19:17:07.873Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "2a24d3d3-82f8-4130-ab5d-7181e25576c2",
+        "name": "Airport Shuttle",
+        "description": "Enjoy convenient transportation to and from the airport",
+        "price": 41890,
+        "created_at": "2023-09-21T10:03:32.392Z",
+        "updated_at": "2023-09-21T00:27:13.491Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "33e8224a-d5cd-43db-b8a4-68c6acdaccec",
+        "room_number": 96329,
+        "room_type": "Deluxe Suite",
+        "price": 47671,
+        "availability": true,
+        "created_at": "2023-09-21T17:17:58.170Z",
+        "updated_at": "2023-09-21T12:50:50.889Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "da152cb1-2100-4a02-b735-0ec650b25872",
+        "room_number": 25859,
+        "room_type": "Executive Room",
+        "price": 90417,
+        "availability": false,
+        "created_at": "2023-09-21T02:45:31.462Z",
+        "updated_at": "2023-09-20T18:11:07.083Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "fc32938e-7c1e-4578-971d-4c11bcdbf9a4",
+        "room_number": 67911,
+        "room_type": "Standard Double",
+        "price": 76248,
+        "availability": true,
+        "created_at": "2023-09-21T13:05:56.142Z",
+        "updated_at": "2023-09-21T05:26:06.564Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d656694b-25e4-454d-9f97-81eada33f0cd",
+        "room_number": 26395,
+        "room_type": "Family Suite",
+        "price": 3213,
+        "availability": false,
+        "created_at": "2023-09-21T03:39:13.246Z",
+        "updated_at": "2023-09-21T05:57:20.077Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "445ec667-6c70-42b9-995e-8c3e4369b27e",
+        "room_number": 65944,
+        "room_type": "Presidential Suite",
+        "price": 54138,
+        "availability": true,
+        "created_at": "2023-09-21T10:25:02.499Z",
+        "updated_at": "2023-09-21T04:31:45.201Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "d92190f3-3261-4f70-aa1e-46ecd6533a2e",
+        "month": "2023-09-21T03:14:54.364Z",
+        "total_profit": 45350,
+        "created_at": "2023-09-21T15:07:11.694Z",
+        "updated_at": "2023-09-21T16:58:55.271Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "7b390552-cdbf-42ec-a97b-41645fb815ca",
+        "month": "2023-09-20T22:59:25.285Z",
+        "total_profit": 48414,
+        "created_at": "2023-09-21T05:32:47.740Z",
+        "updated_at": "2023-09-21T13:24:25.549Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "eaa4c063-724d-4d9d-89bf-e46c57b277b2",
+        "month": "2023-09-20T20:30:15.125Z",
+        "total_profit": 8258,
+        "created_at": "2023-09-21T03:02:13.123Z",
+        "updated_at": "2023-09-21T13:16:45.896Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "642fd334-d3d9-4b88-a8a6-b0fdc9738e0e",
+        "month": "2023-09-20T20:15:46.809Z",
+        "total_profit": 74207,
+        "created_at": "2023-09-21T14:15:22.528Z",
+        "updated_at": "2023-09-20T20:17:54.970Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d142a872-cba3-4adb-b22e-bd5e534949a4",
+        "month": "2023-09-20T22:09:43.154Z",
+        "total_profit": 24033,
+        "created_at": "2023-09-21T12:55:17.432Z",
+        "updated_at": "2023-09-20T22:00:39.893Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f1b410c4-8a83-476f-8eee-0fed00fb3e51",
+        "start_date": "2023-09-21T16:57:11.604Z",
+        "end_date": "2023-09-21T15:51:41.652Z",
+        "total_price": 86966,
+        "created_at": "2023-09-21T08:20:18.849Z",
+        "updated_at": "2023-09-21T16:26:47.015Z",
+        "room_id": "da152cb1-2100-4a02-b735-0ec650b25872",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae7f2c63-943f-4cc4-9c53-5143f45e7714",
+        "start_date": "2023-09-21T06:36:43.004Z",
+        "end_date": "2023-09-21T14:08:32.278Z",
+        "total_price": 79968,
+        "created_at": "2023-09-21T01:01:00.344Z",
+        "updated_at": "2023-09-21T15:51:50.928Z",
+        "room_id": "fc32938e-7c1e-4578-971d-4c11bcdbf9a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3346306d-9755-4511-8636-69a8bef63018",
+        "start_date": "2023-09-21T01:08:29.781Z",
+        "end_date": "2023-09-20T21:54:04.310Z",
+        "total_price": 61894,
+        "created_at": "2023-09-21T07:29:06.956Z",
+        "updated_at": "2023-09-20T23:14:27.024Z",
+        "room_id": "da152cb1-2100-4a02-b735-0ec650b25872",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7db7cdc8-9a3d-4bcf-8eca-fc98e70247a2",
+        "start_date": "2023-09-20T22:08:44.378Z",
+        "end_date": "2023-09-20T21:59:22.795Z",
+        "total_price": 53505,
+        "created_at": "2023-09-21T14:46:47.931Z",
+        "updated_at": "2023-09-20T18:01:06.789Z",
+        "room_id": "fc32938e-7c1e-4578-971d-4c11bcdbf9a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fafe6974-1be1-4974-99b5-400109c519e9",
+        "start_date": "2023-09-20T19:32:38.928Z",
+        "end_date": "2023-09-21T05:33:36.997Z",
+        "total_price": 66576,
+        "created_at": "2023-09-21T05:45:05.316Z",
+        "updated_at": "2023-09-21T17:13:58.111Z",
+        "room_id": "445ec667-6c70-42b9-995e-8c3e4369b27e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bf63c941-ccca-4b02-a5ea-1fa2821c06ab",
+        "email": "Godfrey96@roq.tech",
+        "firstName": "Antonetta",
+        "lastName": "Gislason-Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/599.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "04b27f60-bdbc-4941-848b-988e11b762b1",
+        "email": "Damien.Cruickshank-Lang@roq.tech",
+        "firstName": "Adele",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/799.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b0fdfee-9a49-4a30-90c4-84e2a456b670",
+        "email": "Rupert76@roq.tech",
+        "firstName": "Maiya",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14543662",
+        "tenantId": null
+      },
+      {
+        "reference": "0e7a0424-4191-41c6-bd7c-d938450cfb07",
+        "email": "Berry37@roq.tech",
+        "firstName": "Okey",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51412412",
+        "tenantId": null
+      },
+      {
+        "reference": "f82dd9dd-6b92-478d-8169-a90649e1b3ff",
+        "email": "Cecelia31@roq.tech",
+        "firstName": "Laisha",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/60.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "01c0d642-c732-4ff2-889d-725fe337e769",
+        "name": "Spa",
+        "description": "Relax and rejuvenate with our spa services",
+        "price": 53345,
+        "created_at": "2023-09-21T05:34:55.856Z",
+        "updated_at": "2023-09-20T20:06:13.411Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "8ff0f712-d245-495b-8a66-2ca767da0afa",
+        "name": "Restaurant",
+        "description": "Indulge in a culinary journey at our restaurant",
+        "price": 14804,
+        "created_at": "2023-09-21T16:09:13.581Z",
+        "updated_at": "2023-09-21T11:16:56.497Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "17a77eab-2e8c-453b-8629-be43bf8a8fa9",
+        "name": "Fitness Center",
+        "description": "Stay fit with state-of-the-art fitness equipment",
+        "price": 34668,
+        "created_at": "2023-09-21T00:11:45.696Z",
+        "updated_at": "2023-09-21T15:00:00.214Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "6d1760dc-60e5-4d3a-82c2-c9ddfa7c2b33",
+        "name": "Concierge",
+        "description": "Experience personalized assistance from our concierge",
+        "price": 9805,
+        "created_at": "2023-09-21T00:42:38.158Z",
+        "updated_at": "2023-09-21T03:08:27.377Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "49ab3507-c66a-42c8-a3f4-a97f7e27453f",
+        "name": "Room Service",
+        "description": "Enjoy delicious meals delivered to your room",
+        "price": 27328,
+        "created_at": "2023-09-20T19:49:54.638Z",
+        "updated_at": "2023-09-21T02:13:19.035Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "c8081e80-2fca-4a09-b338-17c898df2e54",
+        "room_number": 82170,
+        "room_type": "Standard Room",
+        "price": 82593,
+        "availability": true,
+        "created_at": "2023-09-21T07:31:29.238Z",
+        "updated_at": "2023-09-21T02:34:30.564Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "94851fec-9dbc-4759-af3b-6dba585ef66b",
+        "room_number": 99820,
+        "room_type": "Deluxe Suite",
+        "price": 83835,
+        "availability": true,
+        "created_at": "2023-09-21T04:30:36.091Z",
+        "updated_at": "2023-09-20T18:06:49.950Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a8f0d683-9f20-428a-b4ad-48dbf1bd99f5",
+        "room_number": 19233,
+        "room_type": "Executive Suite",
+        "price": 5288,
+        "availability": true,
+        "created_at": "2023-09-20T20:42:01.269Z",
+        "updated_at": "2023-09-21T11:22:06.021Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "7d989c1c-85fb-4a48-bb62-66c93590bf74",
+        "room_number": 52813,
+        "room_type": "Penthouse",
+        "price": 47559,
+        "availability": true,
+        "created_at": "2023-09-20T18:25:17.852Z",
+        "updated_at": "2023-09-21T15:46:39.373Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "e2f5c96c-04e3-41fc-acac-8844dba7e14a",
+        "room_number": 36714,
+        "room_type": "Family Room",
+        "price": 54531,
+        "availability": true,
+        "created_at": "2023-09-21T12:29:53.721Z",
+        "updated_at": "2023-09-21T08:06:59.325Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "91405acf-1752-4534-8767-0a230bca6090",
+        "month": "2023-09-20T21:41:46.765Z",
+        "total_profit": 49043,
+        "created_at": "2023-09-21T10:27:09.447Z",
+        "updated_at": "2023-09-21T16:07:42.035Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "70ba846b-33b9-45e3-abde-48e2033e3cd4",
+        "month": "2023-09-21T03:53:43.967Z",
+        "total_profit": 7237,
+        "created_at": "2023-09-21T09:42:56.240Z",
+        "updated_at": "2023-09-21T08:49:46.192Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "fe765877-bc32-460a-aa11-90a7fbc65686",
+        "month": "2023-09-21T03:21:52.742Z",
+        "total_profit": 38853,
+        "created_at": "2023-09-20T21:41:15.106Z",
+        "updated_at": "2023-09-21T04:04:40.180Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "fc41f69a-ff43-4112-b25f-58f69f30d683",
+        "month": "2023-09-21T13:15:37.721Z",
+        "total_profit": 23918,
+        "created_at": "2023-09-20T23:14:54.837Z",
+        "updated_at": "2023-09-21T11:41:15.837Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "ca95e042-9aa6-4f5b-b6a6-c38244d5ec98",
+        "month": "2023-09-21T11:06:41.230Z",
+        "total_profit": 6352,
+        "created_at": "2023-09-21T16:23:01.706Z",
+        "updated_at": "2023-09-20T18:53:24.121Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f6dad022-ba82-4b9b-a1f2-76c2d2fae225",
+        "start_date": "2023-09-21T00:17:52.548Z",
+        "end_date": "2023-09-21T00:27:00.114Z",
+        "total_price": 25489,
+        "created_at": "2023-09-21T05:43:58.272Z",
+        "updated_at": "2023-09-20T19:36:51.582Z",
+        "room_id": "c8081e80-2fca-4a09-b338-17c898df2e54",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a75d87a-ef7a-482c-9186-0771d410e750",
+        "start_date": "2023-09-21T17:50:17.308Z",
+        "end_date": "2023-09-21T10:49:45.184Z",
+        "total_price": 62397,
+        "created_at": "2023-09-21T04:34:18.773Z",
+        "updated_at": "2023-09-21T15:09:35.575Z",
+        "room_id": "7d989c1c-85fb-4a48-bb62-66c93590bf74",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f84a01d0-7f17-40b0-917b-0f0886a66903",
+        "start_date": "2023-09-21T03:26:56.269Z",
+        "end_date": "2023-09-21T09:55:49.453Z",
+        "total_price": 58504,
+        "created_at": "2023-09-21T03:39:16.717Z",
+        "updated_at": "2023-09-20T21:25:58.468Z",
+        "room_id": "a8f0d683-9f20-428a-b4ad-48dbf1bd99f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "983b3ea6-f67f-48c3-a2c0-2049dd35bad4",
+        "start_date": "2023-09-21T11:13:18.763Z",
+        "end_date": "2023-09-21T16:08:09.389Z",
+        "total_price": 28218,
+        "created_at": "2023-09-21T08:33:11.642Z",
+        "updated_at": "2023-09-21T15:22:30.140Z",
+        "room_id": "c8081e80-2fca-4a09-b338-17c898df2e54",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbd582e0-cba8-4d0f-867b-55a9324ddd57",
+        "start_date": "2023-09-20T19:23:35.210Z",
+        "end_date": "2023-09-21T06:08:59.649Z",
+        "total_price": 23473,
+        "created_at": "2023-09-21T10:19:49.932Z",
+        "updated_at": "2023-09-20T18:19:55.797Z",
+        "room_id": "a8f0d683-9f20-428a-b4ad-48dbf1bd99f5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2268ad1-de71-44d0-bf7e-114ef9f112cb",
+        "email": "Judy.Kiehn@roq.tech",
+        "firstName": "Rosario",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/609.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6364543a-ed55-458b-8aa0-fe1e9e8640d7",
+        "email": "Emie.Corkery-Macejkovic54@roq.tech",
+        "firstName": "Amira",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/877.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e124987-ceff-4927-bf1d-43aed5600036",
+        "email": "Felipa_Ward32@roq.tech",
+        "firstName": "Alexandre",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21548799",
+        "tenantId": null
+      },
+      {
+        "reference": "a0101830-c0bf-43ea-8458-707d66cffad3",
+        "email": "Michael.Dicki@roq.tech",
+        "firstName": "Ashley",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61098312",
+        "tenantId": null
+      },
+      {
+        "reference": "1ad09f83-0d3b-4ec3-92bc-c70e75c17949",
+        "email": "Dustin51@roq.tech",
+        "firstName": "Shania",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/301.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "36065c21-c5a7-4b19-bc6d-0a840a8c7f94",
+        "name": "Spa & Wellness",
+        "description": "Indulge in a relaxing spa treatment",
+        "price": 26356,
+        "created_at": "2023-09-21T14:37:46.040Z",
+        "updated_at": "2023-09-21T15:09:52.607Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "22259d15-fb1d-4bf5-b27b-e65f4b753a6f",
+        "name": "Gourmet Restaurant",
+        "description": "Savor exquisite culinary creations",
+        "price": 79162,
+        "created_at": "2023-09-21T16:36:18.827Z",
+        "updated_at": "2023-09-21T12:21:02.139Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "3f0d3d34-1d5c-47f9-98de-21660ffec27e",
+        "name": "Concierge Service",
+        "description": "Experience personalized assistance",
+        "price": 84910,
+        "created_at": "2023-09-21T14:23:06.079Z",
+        "updated_at": "2023-09-21T16:02:27.436Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "f504953b-945c-4f0f-b046-51bed637ca0f",
+        "name": "Fitness Center",
+        "description": "Stay active with state-of-the-art equipment",
+        "price": 93382,
+        "created_at": "2023-09-21T00:46:46.620Z",
+        "updated_at": "2023-09-20T19:23:06.084Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "75c4527c-6826-4666-b700-00a99bf22768",
+        "name": "Outdoor Pool",
+        "description": "Enjoy a refreshing swim under the sun",
+        "price": 66537,
+        "created_at": "2023-09-21T03:24:58.211Z",
+        "updated_at": "2023-09-20T21:01:23.070Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "441ed763-4891-40c6-9ce2-a457eb7f429f",
+        "room_number": 25226,
+        "room_type": "Deluxe Suite",
+        "price": 58569,
+        "availability": true,
+        "created_at": "2023-09-20T20:29:57.714Z",
+        "updated_at": "2023-09-21T08:39:11.423Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "dceb0a90-6b3d-4a56-9b18-45d44ae34a81",
+        "room_number": 85576,
+        "room_type": "Mountain View Room",
+        "price": 78272,
+        "availability": false,
+        "created_at": "2023-09-20T18:24:56.405Z",
+        "updated_at": "2023-09-20T21:57:04.103Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "531fce8e-28bb-4d3d-ada8-52e18e060d43",
+        "room_number": 55235,
+        "room_type": "Executive King",
+        "price": 63666,
+        "availability": true,
+        "created_at": "2023-09-21T06:56:14.125Z",
+        "updated_at": "2023-09-20T20:12:28.500Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "87066efd-7354-4072-aabd-0c37cd7fd991",
+        "room_number": 95075,
+        "room_type": "City View Suite",
+        "price": 57046,
+        "availability": false,
+        "created_at": "2023-09-21T02:17:04.026Z",
+        "updated_at": "2023-09-21T12:26:20.363Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "af79baf7-fc3b-46b8-8973-7f2c3acfe964",
+        "room_number": 35403,
+        "room_type": "Cottage Room",
+        "price": 64031,
+        "availability": true,
+        "created_at": "2023-09-20T18:51:00.523Z",
+        "updated_at": "2023-09-21T00:26:30.614Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "91aba1fc-6d77-4287-9bff-aceb78edfc70",
+        "month": "2023-09-21T06:12:23.107Z",
+        "total_profit": 22469,
+        "created_at": "2023-09-21T12:47:48.317Z",
+        "updated_at": "2023-09-21T11:31:32.629Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "5aa2d88a-001e-457a-88f1-822a88cc40e6",
+        "month": "2023-09-20T20:38:29.206Z",
+        "total_profit": 81607,
+        "created_at": "2023-09-20T21:56:40.319Z",
+        "updated_at": "2023-09-21T01:46:42.036Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "fff60178-b545-4b20-b20b-0d40bfd7ee2b",
+        "month": "2023-09-21T03:01:35.618Z",
+        "total_profit": 24236,
+        "created_at": "2023-09-20T22:19:31.483Z",
+        "updated_at": "2023-09-20T23:47:15.002Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "cbfc4f98-5288-47ab-8ee9-ed78e186e8ec",
+        "month": "2023-09-21T05:00:56.161Z",
+        "total_profit": 38514,
+        "created_at": "2023-09-20T20:56:55.166Z",
+        "updated_at": "2023-09-21T16:59:43.467Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "2bb3fac1-da09-4954-91be-3046a3a27116",
+        "month": "2023-09-20T23:36:21.332Z",
+        "total_profit": 59746,
+        "created_at": "2023-09-21T11:25:58.582Z",
+        "updated_at": "2023-09-20T19:32:46.075Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "9287bdfe-81fb-4773-bf13-0033b5fc63c4",
+        "start_date": "2023-09-20T22:14:02.173Z",
+        "end_date": "2023-09-21T13:15:15.598Z",
+        "total_price": 26730,
+        "created_at": "2023-09-20T22:19:29.831Z",
+        "updated_at": "2023-09-20T18:06:35.401Z",
+        "room_id": "87066efd-7354-4072-aabd-0c37cd7fd991",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8470ea0-8eb4-4baa-b562-d742aea2d631",
+        "start_date": "2023-09-21T17:47:03.726Z",
+        "end_date": "2023-09-21T06:26:19.113Z",
+        "total_price": 69772,
+        "created_at": "2023-09-21T06:13:16.115Z",
+        "updated_at": "2023-09-20T19:53:32.087Z",
+        "room_id": "531fce8e-28bb-4d3d-ada8-52e18e060d43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "174e4d4c-5714-49b3-99fb-cbd189f6c00d",
+        "start_date": "2023-09-21T12:42:12.902Z",
+        "end_date": "2023-09-20T22:55:59.309Z",
+        "total_price": 99527,
+        "created_at": "2023-09-21T14:58:05.280Z",
+        "updated_at": "2023-09-20T19:43:53.192Z",
+        "room_id": "af79baf7-fc3b-46b8-8973-7f2c3acfe964",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "616ad454-242e-4b7b-90f3-01d078dc5af6",
+        "start_date": "2023-09-21T07:27:17.667Z",
+        "end_date": "2023-09-21T04:04:24.561Z",
+        "total_price": 95823,
+        "created_at": "2023-09-21T16:29:36.409Z",
+        "updated_at": "2023-09-20T23:13:05.937Z",
+        "room_id": "87066efd-7354-4072-aabd-0c37cd7fd991",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d22d1614-3f82-4cc6-9a3e-264bc6b677f8",
+        "start_date": "2023-09-21T05:12:29.947Z",
+        "end_date": "2023-09-21T01:14:07.121Z",
+        "total_price": 68728,
+        "created_at": "2023-09-21T01:46:41.756Z",
+        "updated_at": "2023-09-21T02:49:43.496Z",
+        "room_id": "af79baf7-fc3b-46b8-8973-7f2c3acfe964",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f89e8366-2c1b-40d2-8530-d6facdff8295",
+        "email": "Andreane_Hagenes@roq.tech",
+        "firstName": "Pierre",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e0d3ce6-06b6-4d5e-98d6-9110565a0e37",
+        "email": "Ethan_Kuphal@roq.tech",
+        "firstName": "Mylene",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/315.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f6bb19c8-f6cf-4d9a-bf56-cb904ba37654",
+        "email": "Ramona46@roq.tech",
+        "firstName": "Jasen",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/453.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "005b6712-7f21-4074-b612-a9f35609c2af",
+        "email": "Brett.Bashirian@roq.tech",
+        "firstName": "Wilber",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1211.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a07196ed-2c0e-4506-9569-1c2ea4be29d0",
+        "email": "Frederique_Stark@roq.tech",
+        "firstName": "Oceane",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "fecf7962-faaf-4321-9fa4-bb48baaaa58e",
+        "name": "Spa",
+        "description": "Relax and rejuvenate with our spa treatments",
+        "price": 8416,
+        "created_at": "2023-09-21T03:33:25.423Z",
+        "updated_at": "2023-09-21T17:58:03.994Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "31e4e1c9-5f63-4003-a457-945719145440",
+        "name": "Fitness Center",
+        "description": "Stay fit with our state-of-the-art gym equipment",
+        "price": 74110,
+        "created_at": "2023-09-21T10:42:17.127Z",
+        "updated_at": "2023-09-21T07:32:07.908Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "e4522d20-cc58-498a-9c8f-6e78db9c6460",
+        "name": "Restaurant",
+        "description": "Indulge in exquisite cuisine at our restaurant",
+        "price": 72702,
+        "created_at": "2023-09-20T19:43:28.309Z",
+        "updated_at": "2023-09-21T09:00:25.692Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "1c823469-b1d5-4837-b4f8-fe66af3f88b5",
+        "name": "Concierge",
+        "description": "Experience personalized assistance from our concierge",
+        "price": 50633,
+        "created_at": "2023-09-20T18:04:58.326Z",
+        "updated_at": "2023-09-21T03:39:37.071Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d1619038-471c-4a70-b8b5-8f58d08d3661",
+        "name": "Room Service",
+        "description": "Enjoy delicious meals delivered to your room",
+        "price": 92531,
+        "created_at": "2023-09-21T16:37:31.481Z",
+        "updated_at": "2023-09-20T22:56:52.545Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "6808c0d3-fd72-49a1-b0fc-69047b8a29c2",
+        "room_number": 38910,
+        "room_type": "Deluxe King Room",
+        "price": 60859,
+        "availability": true,
+        "created_at": "2023-09-21T00:58:46.814Z",
+        "updated_at": "2023-09-21T13:01:02.868Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a1327b4d-9fad-4047-b808-d68dacffdc32",
+        "room_number": 80541,
+        "room_type": "Executive Suite",
+        "price": 90863,
+        "availability": false,
+        "created_at": "2023-09-21T07:32:24.901Z",
+        "updated_at": "2023-09-21T01:52:00.195Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a0412672-37f3-473c-a1b4-9f83d43c7066",
+        "room_number": 78515,
+        "room_type": "Ocean View Villa",
+        "price": 55593,
+        "availability": false,
+        "created_at": "2023-09-21T03:10:54.151Z",
+        "updated_at": "2023-09-21T01:59:29.477Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "67e8dc1a-dca4-49f2-9aca-ac071b5ee740",
+        "room_number": 81042,
+        "room_type": "Family Room",
+        "price": 12831,
+        "availability": false,
+        "created_at": "2023-09-21T01:19:16.249Z",
+        "updated_at": "2023-09-20T21:02:47.589Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d5928e43-50cc-45d0-8675-21a3d0ae1d22",
+        "room_number": 411,
+        "room_type": "Penthouse Loft",
+        "price": 88255,
+        "availability": false,
+        "created_at": "2023-09-21T11:42:15.034Z",
+        "updated_at": "2023-09-21T03:32:38.929Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "61cc730c-23ae-4c46-8798-ed72130e7096",
+        "month": "2023-09-21T08:15:47.556Z",
+        "total_profit": 72640,
+        "created_at": "2023-09-21T12:24:50.283Z",
+        "updated_at": "2023-09-21T10:12:21.404Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "b1f5789a-40c4-4786-bda7-188a903733ec",
+        "month": "2023-09-20T18:46:13.447Z",
+        "total_profit": 18288,
+        "created_at": "2023-09-21T08:29:05.894Z",
+        "updated_at": "2023-09-21T05:09:48.818Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "af3dd5c4-a440-41f9-abdd-0f47c2b79fa5",
+        "month": "2023-09-21T01:45:38.830Z",
+        "total_profit": 96751,
+        "created_at": "2023-09-21T02:44:25.174Z",
+        "updated_at": "2023-09-21T02:40:14.123Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "4ebc86df-d250-4b6a-9ca7-95c47abd0318",
+        "month": "2023-09-20T21:42:45.006Z",
+        "total_profit": 8208,
+        "created_at": "2023-09-21T03:43:17.982Z",
+        "updated_at": "2023-09-21T05:50:03.986Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "c6820a10-06dd-4a29-bc33-3fb45f89853b",
+        "month": "2023-09-21T00:31:09.912Z",
+        "total_profit": 92975,
+        "created_at": "2023-09-21T15:55:15.424Z",
+        "updated_at": "2023-09-20T21:14:41.575Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "36eb3b88-8659-4ac8-9d1c-4b7323893d01",
+        "start_date": "2023-09-21T08:04:31.705Z",
+        "end_date": "2023-09-21T01:22:20.440Z",
+        "total_price": 28638,
+        "created_at": "2023-09-21T01:29:37.285Z",
+        "updated_at": "2023-09-21T04:10:59.317Z",
+        "room_id": "a0412672-37f3-473c-a1b4-9f83d43c7066",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7204a417-3cf5-4c8e-bb03-7364b6bffcf4",
+        "start_date": "2023-09-21T05:56:33.815Z",
+        "end_date": "2023-09-21T00:29:49.052Z",
+        "total_price": 82354,
+        "created_at": "2023-09-21T12:02:57.993Z",
+        "updated_at": "2023-09-21T07:02:47.596Z",
+        "room_id": "a0412672-37f3-473c-a1b4-9f83d43c7066",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5aa7545-8427-4421-8164-928eb0493345",
+        "start_date": "2023-09-21T01:04:33.729Z",
+        "end_date": "2023-09-21T16:21:00.572Z",
+        "total_price": 91977,
+        "created_at": "2023-09-21T10:21:27.854Z",
+        "updated_at": "2023-09-21T11:07:50.489Z",
+        "room_id": "a0412672-37f3-473c-a1b4-9f83d43c7066",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "062a81fe-b18a-4df5-aba0-b2ca2dfbcdeb",
+        "start_date": "2023-09-21T11:05:42.397Z",
+        "end_date": "2023-09-20T20:50:23.525Z",
+        "total_price": 14667,
+        "created_at": "2023-09-20T19:34:49.873Z",
+        "updated_at": "2023-09-21T16:23:13.359Z",
+        "room_id": "a0412672-37f3-473c-a1b4-9f83d43c7066",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92a8fce7-908b-40cf-971a-f652bd1094a5",
+        "start_date": "2023-09-20T23:41:33.014Z",
+        "end_date": "2023-09-20T21:50:03.312Z",
+        "total_price": 95838,
+        "created_at": "2023-09-21T08:38:24.483Z",
+        "updated_at": "2023-09-20T18:22:20.654Z",
+        "room_id": "a1327b4d-9fad-4047-b808-d68dacffdc32",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "45fadf5e-35aa-42b7-94a6-c1f90142ff3d",
+        "email": "Estel_Reilly@roq.tech",
+        "firstName": "Fernando",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/265.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b5143c43-e5e1-4837-8300-6c014873d5d7",
+        "email": "Friedrich_Reichel@roq.tech",
+        "firstName": "Audie",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/176.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60d669bd-84b4-422c-b73a-0923251e620f",
+        "email": "Nick_Stoltenberg-Lesch@roq.tech",
+        "firstName": "Mia",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97308312",
+        "tenantId": null
+      },
+      {
+        "reference": "238970d7-ffe0-429d-90c1-52ecb5b2c3e6",
+        "email": "Adell65@roq.tech",
+        "firstName": "Lavon",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20126097",
+        "tenantId": null
+      },
+      {
+        "reference": "54a77375-dd6f-4f38-8ac1-d895162332f7",
+        "email": "Kiana_Connelly@roq.tech",
+        "firstName": "Randal",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1098.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "3b9301ce-4318-402c-94f8-2a453385e4e7",
+        "name": "Spa",
+        "description": "Relax and rejuvenate with our spa treatments",
+        "price": 29253,
+        "created_at": "2023-09-21T11:09:13.117Z",
+        "updated_at": "2023-09-21T13:03:40.071Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "8783782f-3c88-4d9c-9c76-50a580ed4ca7",
+        "name": "Fitness Center",
+        "description": "Stay fit with our state-of-the-art gym equipment",
+        "price": 66973,
+        "created_at": "2023-09-20T20:24:43.098Z",
+        "updated_at": "2023-09-20T20:03:23.329Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "43d6e120-2ea0-4cee-8f23-b5a772321e3a",
+        "name": "Restaurant",
+        "description": "Indulge in exquisite dining experience",
+        "price": 16425,
+        "created_at": "2023-09-20T19:25:55.567Z",
+        "updated_at": "2023-09-20T19:32:04.968Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "e036912e-51d6-437e-8899-07a47820e125",
+        "name": "Concierge",
+        "description": "Personalized assistance for all your needs",
+        "price": 30780,
+        "created_at": "2023-09-21T16:20:40.404Z",
+        "updated_at": "2023-09-21T06:35:08.742Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "5f23e61e-ec0a-4b76-b4f4-953fa26152ee",
+        "name": "Room Service",
+        "description": "Enjoy a wide range of in-room dining options",
+        "price": 29422,
+        "created_at": "2023-09-20T22:17:01.629Z",
+        "updated_at": "2023-09-21T15:37:05.250Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "23dc6899-9c5a-4b69-9e3f-d307918d8714",
+        "room_number": 78557,
+        "room_type": "Deluxe Room",
+        "price": 42889,
+        "availability": false,
+        "created_at": "2023-09-20T20:21:59.285Z",
+        "updated_at": "2023-09-20T22:11:44.909Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "b3a9f7f3-f54b-46fb-bd9a-26f0832dbf4a",
+        "room_number": 25635,
+        "room_type": "Executive Suite",
+        "price": 76115,
+        "availability": true,
+        "created_at": "2023-09-21T07:44:10.030Z",
+        "updated_at": "2023-09-21T16:20:04.115Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "ae566c65-ab65-467e-a067-a6bba022207e",
+        "room_number": 32187,
+        "room_type": "Family Room",
+        "price": 47877,
+        "availability": true,
+        "created_at": "2023-09-20T22:15:23.299Z",
+        "updated_at": "2023-09-20T18:35:27.477Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "84b14b4b-120c-41b6-825d-411073040674",
+        "room_number": 83100,
+        "room_type": "Presidential Suite",
+        "price": 36779,
+        "availability": false,
+        "created_at": "2023-09-21T08:15:04.287Z",
+        "updated_at": "2023-09-21T04:42:12.558Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "ab5786de-2a5d-4cd7-b070-ca474a9b20aa",
+        "room_number": 44142,
+        "room_type": "Standard Room",
+        "price": 21210,
+        "availability": false,
+        "created_at": "2023-09-20T21:35:21.243Z",
+        "updated_at": "2023-09-21T16:50:28.963Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "900b6255-1487-4f6f-99db-2cb27a9af348",
+        "month": "2023-09-20T23:37:39.472Z",
+        "total_profit": 79653,
+        "created_at": "2023-09-21T17:34:29.328Z",
+        "updated_at": "2023-09-21T17:46:48.682Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "718a82be-f839-4b1b-ba64-37984292591d",
+        "month": "2023-09-21T04:05:55.210Z",
+        "total_profit": 27844,
+        "created_at": "2023-09-20T18:23:59.975Z",
+        "updated_at": "2023-09-20T18:29:38.122Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "68b96d79-f91d-4a8f-8ea6-ac87e748aebf",
+        "month": "2023-09-21T10:17:13.137Z",
+        "total_profit": 44651,
+        "created_at": "2023-09-21T04:56:35.734Z",
+        "updated_at": "2023-09-21T01:39:10.149Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "eaffb6e6-cdb0-42de-ad4d-de4c569b79ba",
+        "month": "2023-09-21T16:46:00.878Z",
+        "total_profit": 86110,
+        "created_at": "2023-09-21T16:42:22.086Z",
+        "updated_at": "2023-09-21T06:13:17.923Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a99c23c8-2186-432d-a656-ec5cfc74ff13",
+        "month": "2023-09-21T13:32:41.360Z",
+        "total_profit": 23062,
+        "created_at": "2023-09-20T23:48:33.226Z",
+        "updated_at": "2023-09-20T21:57:58.433Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1a752188-54e1-4ad6-8452-567ae05b9fe3",
+        "start_date": "2023-09-21T14:30:21.813Z",
+        "end_date": "2023-09-21T07:35:49.161Z",
+        "total_price": 69243,
+        "created_at": "2023-09-21T07:23:47.694Z",
+        "updated_at": "2023-09-21T11:50:29.554Z",
+        "room_id": "b3a9f7f3-f54b-46fb-bd9a-26f0832dbf4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e0a73be-94ef-485d-963a-35e51f37a86c",
+        "start_date": "2023-09-21T01:09:46.420Z",
+        "end_date": "2023-09-21T02:31:52.017Z",
+        "total_price": 56247,
+        "created_at": "2023-09-20T23:43:11.599Z",
+        "updated_at": "2023-09-20T20:53:35.350Z",
+        "room_id": "ae566c65-ab65-467e-a067-a6bba022207e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "622f99e6-0793-4a38-aee2-1be2f76df6cb",
+        "start_date": "2023-09-21T13:17:40.208Z",
+        "end_date": "2023-09-21T17:03:21.701Z",
+        "total_price": 59848,
+        "created_at": "2023-09-20T21:44:09.433Z",
+        "updated_at": "2023-09-20T18:39:57.542Z",
+        "room_id": "ab5786de-2a5d-4cd7-b070-ca474a9b20aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "118b9d72-de46-43c4-88b6-7571d33167d8",
+        "start_date": "2023-09-21T11:03:13.298Z",
+        "end_date": "2023-09-21T14:47:41.390Z",
+        "total_price": 70730,
+        "created_at": "2023-09-21T11:56:11.323Z",
+        "updated_at": "2023-09-21T15:54:35.096Z",
+        "room_id": "ae566c65-ab65-467e-a067-a6bba022207e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "530746b0-fa7c-4492-85dd-5bab5854cca0",
+        "start_date": "2023-09-21T02:41:59.484Z",
+        "end_date": "2023-09-21T01:55:53.090Z",
+        "total_price": 27355,
+        "created_at": "2023-09-21T06:50:18.622Z",
+        "updated_at": "2023-09-21T13:37:27.341Z",
+        "room_id": "23dc6899-9c5a-4b69-9e3f-d307918d8714",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25abd333-b2a6-4e1e-a459-a19cb5c093b1",
+        "email": "Francisca.Breitenberg59@roq.tech",
+        "firstName": "Mohammed",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1049.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14d2e6c0-b42e-4280-8ad6-68aafbaf11ae",
+        "email": "Kailee_DuBuque38@roq.tech",
+        "firstName": "Sonia",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7741076",
+        "tenantId": null
+      },
+      {
+        "reference": "fc152230-56dd-41bb-9afb-f689a4bc8686",
+        "email": "Marianne.McLaughlin@roq.tech",
+        "firstName": "Miracle",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2b2b0a9-e728-46d8-8b37-dabf4ed81b8f",
+        "email": "Mitchel.Hansen29@roq.tech",
+        "firstName": "Florida",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/969.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f792ed92-525b-4d87-8d65-c5812a3bdcf3",
+        "email": "Millie_Dach69@roq.tech",
+        "firstName": "Ezekiel",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14837482",
+        "tenantId": null
+      }
+    ]
+  }
+]
